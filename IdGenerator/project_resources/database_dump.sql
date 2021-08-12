@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 27, 2019 at 12:46 AM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.3.9
+-- Generation Time: Aug 12, 2021 at 08:47 AM
+-- Server version: 10.4.17-MariaDB
+-- PHP Version: 8.0.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -46,11 +45,11 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`dbid`, `admission_no`, `name`, `year`, `branch`, `class`, `mob_no`, `email`, `dob`, `address`) VALUES
-(1, 20184563, 'Test Student', 'SE', 'CS', 'A', '1234567890', NULL, NULL, NULL),
-(2, 20184565, 'Another Student', 'SE', 'CS', 'A', '1234567890', NULL, NULL, NULL),
-(3, 20184569, 'OneMore Student', 'SE', 'CS', 'B', '0987654321', NULL, NULL, NULL),
-(4, 20184572, 'Yogesh Choudhary', 'SE', 'CS', 'B', '2345678901', NULL, NULL, NULL),
-(5, 20184574, 'Varun MK', 'SE', 'CS', 'A', '3456789012', NULL, NULL, NULL);
+(1, 20184563, 'Abin Varghese', 'SE', 'Computer Engineering', 'B', '1234567890', 'abc@mes.ac.in', '2000-08-08', 'Sion, Mumbai'),
+(2, 20184565, 'Dhanesh Nair', 'SE', 'Computer Engineering', 'A', '1234567899', 'dms@student.mes.ac.in', '2000-07-16', 'Boisar'),
+(3, 20184569, 'Yogesh Choudhary', 'TE', 'Information Technolo', 'B', '9987654321', 'xyz@mes.ac.in', '1999-12-22', 'Nerul, Navi Mumbai'),
+(4, 20184572, 'Sidharth Nair', 'SE', 'Computer Engineering', 'A', '2345678901', 'ssn@mes.ac.in', '2000-10-19', 'Ulwe, Navi Mumbai'),
+(5, 20184574, 'Varun MK', 'SE', 'Computer Engineering', 'A', '3456789012', 'mkv@mes.ac.in', '2000-09-13', 'Powai, Mumbai');
 
 --
 -- Indexes for dumped tables
