@@ -28,23 +28,23 @@ public class Generator {
             String text5 = rs.getString("class");
             String text6 = rs.getString("mob_no");
 
-            File input = new File("C:/ID_Cards/template/template.jpg");
-            File output = new File("C:/ID_Cards/output_images/"+text2+".jpg");
+            File input = new File("E:/ID-card-generator/ID_Cards/template/template.jpg");
+            File output = new File("E:/ID-card-generator/ID_Cards/output_images/"+text2+".jpg");
 
             File input2 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
-            File output2 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
+            File output2 = new File("E:/ID-card-generator/ID_Cards/output_images/"+text2+".jpg");
 
             File input3 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
-            File output3 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
+            File output3 = new File("E:/ID-card-generator/ID_Cards/output_images/"+text2+".jpg");
 
             File input4 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
-            File output4 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
+            File output4 = new File("E:/ID-card-generator/ID_Cards/output_images/"+text2+".jpg");
 
             File input5 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
-            File output5 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
+            File output5 = new File("E:/ID-card-generator/ID_Cards/output_images/"+text2+".jpg");
 
             File input6 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
-            File output6 = new File("C:/ID_Cards/output_images/"+text2+".jpg");
+            File output6 = new File("E:/ID-card-generator/ID_Cards/output_images/"+text2+".jpg");
 
 
             // adding text as overlay to the template image of the id card

@@ -13,12 +13,12 @@ import com.itextpdf.text.pdf.PdfWriter;
 public class pdf {
 
     public static void convertAllToPdf() throws Exception {
-        File root = new File("C:/ID_Cards/output_images/");
+        File root = new File("E:/ID-card-generator/ID_Cards/output_images/");
         String outputFile = "All_Generated_IDs.pdf";
 
         List<String> files = new ArrayList<String>();
 
-        File[] imgs = new File("C:/ID_Cards/output_images").listFiles();
+        File[] imgs = new File("E:/ID-card-generator/ID_Cards/output_images").listFiles();
 
         for (File file : imgs) {
             if (file.isFile()) {
@@ -28,7 +28,7 @@ public class pdf {
 
         Rectangle pgsiz = new Rectangle(160, 250);
         Document document = new Document(pgsiz);
-        PdfWriter.getInstance(document, new FileOutputStream(new File("C:/ID_Cards/output_pdf/", outputFile)));
+        PdfWriter.getInstance(document, new FileOutputStream(new File("E:/ID-card-generator/ID_Cards/output_pdf/", outputFile)));
         document.open();
         for (String f : files) {
             document.newPage();

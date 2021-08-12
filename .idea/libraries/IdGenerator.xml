@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IdGenerator">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IdGenerator/out/artifacts/IdGenerator_jar/IdGenerator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
