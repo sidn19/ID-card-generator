@@ -32,7 +32,7 @@ CREATE TABLE `students` (
   `admission_no` int(15) NOT NULL,
   `name` varchar(50) NOT NULL,
   `year` varchar(15) NOT NULL,
-  `branch` varchar(20) NOT NULL,
+  `branch` varchar(40) NOT NULL,
   `class` varchar(5) DEFAULT NULL,
   `mob_no` varchar(10) DEFAULT NULL,
   `email` varchar(45) DEFAULT NULL,
@@ -47,7 +47,7 @@ CREATE TABLE `students` (
 INSERT INTO `students` (`dbid`, `admission_no`, `name`, `year`, `branch`, `class`, `mob_no`, `email`, `dob`, `address`) VALUES
 (1, 20184563, 'Abin Varghese', 'SE', 'Computer Engineering', 'B', '1234567890', 'abc@mes.ac.in', '2000-08-08', 'Sion, Mumbai'),
 (2, 20184565, 'Dhanesh Nair', 'SE', 'Computer Engineering', 'A', '1234567899', 'dms@student.mes.ac.in', '2000-07-16', 'Boisar'),
-(3, 20184569, 'Yogesh Choudhary', 'TE', 'Information Technolo', 'B', '9987654321', 'xyz@mes.ac.in', '1999-12-22', 'Nerul, Navi Mumbai'),
+(3, 20184569, 'Yogesh Choudhary', 'TE', 'Information Technology', 'B', '9987654321', 'xyz@mes.ac.in', '1999-12-22', 'Nerul, Navi Mumbai'),
 (4, 20184572, 'Sidharth Nair', 'SE', 'Computer Engineering', 'A', '2345678901', 'ssn@mes.ac.in', '2000-10-19', 'Ulwe, Navi Mumbai'),
 (5, 20184574, 'Varun MK', 'SE', 'Computer Engineering', 'A', '3456789012', 'mkv@mes.ac.in', '2000-09-13', 'Powai, Mumbai');
 
